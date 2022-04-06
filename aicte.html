@@ -220,10 +220,6 @@
   </style>
 
     <style>
-        /* .tb-megamenu-item{
-            position: relative;
-            display: inline-block;
-        } */
         .tb-megamenu-submenu, .tb-megamenu-row {
             background: transparent !important;
         }
@@ -245,8 +241,58 @@
         #main-menu-inner ul li a{
             padding: 0px !important;
         }
+        #search-block-form .form-text{
+          border-radius: 20px !important;
+        }
     </style>
 
+    <style>
+      body{
+        background: linear-gradient(90deg, orange, white, green);
+      }
+      .tb-megamenu ul  li  {
+        background: linear-gradient(180deg, orange, white, green) !important;
+      }
+      /* .tb-megamenu ul  li:hover{
+        background: transparent !important;
+      } */
+      #main-menu-inner .tb-megamenu ul li.open, #main-menu-inner .tb-megamenu ul li:hover, #main-menu-inner .tb-megamenu ul li.open a, #main-menu-inner .tb-megamenu ul li:hover a{
+        background: transparent !important;
+      }
+
+      /* #main-menu-inner .tb-megamenu ul  li:hover{
+        background: transparent !important;
+      } */
+      #logo{
+        display: flex;
+        justify-content: end;
+      }
+      .tb-megamenu-subnav li{
+        background: white !important;
+      }
+      
+      #log button:hover{
+        text-decoration: none;
+        border: 2px solid green !important;
+        border-radius: 12px;
+        background: linear-gradient(180deg, orange, white, green) !important;
+      }
+      .tb-megamenu-item:hover{
+        background-color: red !important;
+      }
+
+      .tb-megamenu-item:hover{
+        background: red !important;
+      }
+      /* .tb-megamenu .nav li a:focus, .tb-megamenu .nav li a:hover{
+        background: linear-gradient(180deg, orange, white, green) !important;
+
+      } */
+
+      #main-menu-inner .tb-megamenu .dropdown-menu ul li a{
+        background: grey !important;
+      }
+    </style>
   
 
   <style type="text/css" media="all">
@@ -464,8 +510,9 @@
   </style>
   <!-- logzeroTechnologies code -->
   <div class="container-fluid">
-    <nav class="collapse navbar-collapse width" id="main-menu-inner"
-      style="margin: 0; padding: 0; z-index: 30; position: fixed; top: 0px; display: flex; flex-direction: column; align-items: center; width: 100vw; justify-content: center;">
+    <nav>
+    <div class="collapse navbar-collapse width" id="main-menu-inner"
+      style="margin: 0; padding: 0; z-index: 30; position: fixed; top: 0px; right: 0px; display: flex; flex-direction: column; width: 100vw;">
       <div class="container">
         <div class="region region-main-menu">
           <div id="block-tb-megamenu-main-menu" class="block block-tb-megamenu">
@@ -483,7 +530,7 @@
                   <li data-id="547" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega dropdown">
-                    <a style="width: 100px;" href="/about-us/history" class="dropdown-toggle">
+                    <a style="width: 100px; color: #000 !important; background: transparent !important;" href="/about-us/history" class="dropdown-toggle">
 
                       About Us <span class="caret"></span>
                     </a>
@@ -561,7 +608,7 @@
                   <li data-id="549" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega dropdown">
-                    <a href="/news/news-overview" class="dropdown-toggle">
+                    <a style="color: #000 !important; background: transparent !important;" href="/news/news-overview" class="dropdown-toggle">
 
                       Newsroom <span class="caret"></span>
                     </a>
@@ -636,7 +683,7 @@
                   <li data-id="1158" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega dropdown">
-                    <a href="/bureaus" class="dropdown-toggle">
+                    <a style="color: #000 !important; background: transparent !important;" href="/bureaus" class="dropdown-toggle">
 
                       Bureaus <span class="caret"></span>
                     </a>
@@ -714,7 +761,7 @@
                   <li data-id="1652" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="right" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega mega-align-right dropdown">
-                    <a href="/Initiatives" class="dropdown-toggle">
+                    <a style="color: #000 !important; background: transparent !important;" href="/Initiatives" class="dropdown-toggle">
 
                       Initiatives <span class="caret"></span>
                     </a>
@@ -850,7 +897,7 @@
                   <li data-id="1162" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega dropdown">
-                    <a href="/schemes" class="dropdown-toggle">
+                    <a style="color: #000 !important; background: transparent !important;" href="/schemes" class="dropdown-toggle">
 
                       Schemes <span class="caret"></span>
                     </a>
@@ -929,7 +976,7 @@
                   <li data-id="1160" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega dropdown">
-                    <a href="/education/overview" class="dropdown-toggle">
+                    <a style="color: #000 !important; background: transparent !important;" href="/education/overview" class="dropdown-toggle">
 
                       Education <span class="caret"></span>
                     </a>
@@ -1067,7 +1114,7 @@
                   <li data-id="551" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega dropdown">
-                    <a href="/opportunities/students/overview" class="dropdown-toggle">
+                    <a style="color: #000 !important; background: transparent !important;" href="/opportunities/students/overview" class="dropdown-toggle">
 
                       Opportunities <span class="caret"></span>
                     </a>
@@ -1116,7 +1163,7 @@
                   <li data-id="1163" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega dropdown">
-                    <a href="https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php"
+                    <a style="color: #000 !important; background: transparent !important;" href="https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php"
                       class="dropdown-toggle" target="_blank">
 
                       Statistics <span class="caret"></span>
@@ -1268,7 +1315,7 @@
                   <li data-id="1164" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption=""
                     data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0"
                     class="tb-megamenu-item level-1 mega dropdown">
-                    <a href="/bulletins" class="dropdown-toggle">
+                    <a style="color: #000 !important; background: transparent !important;" href="/bulletins" class="dropdown-toggle">
 
                       Bulletins <span class="caret"></span>
                     </a>
@@ -1341,16 +1388,27 @@
                       </div>
                     </div>
                   </li>
-                  <li class="expanded menu-mlid-551"><a style="height: 45px;"
+                  <li id="log" >
+                    <button type="button" style="border: none; background: transparent;"><a style="height: 45px;"
+                      href="https://portal.aicte-india.org/partnerportal_enu">LOGIN</a>
+                      </button>
+                    <!-- <a style="height: 45px;"
+                      <i class="fa fa-user-o" aria-hidden="true"></i></i>
+                      href="https://portal.aicte-india.org/partnerportal_enu"><i
+                        class="ico-user"></i>Login</a> -->
+                    </li>
+                  <!-- <li class="expanded menu-mlid-551"><a style="height: 45px;"
                       href="https://portal.aicte-india.org/partnerportal_enu" class="login_btn" target="_blank"><i
-                        class="ico-user"></i>Login</a></li>
+                        class="ico-user"></i>Login</a>
+                    </li> -->
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
   </div>
 
   <header id="masthead" class="container padTopBtm10 no-white no-pad" role="banner">
@@ -1440,7 +1498,7 @@
         <div id="block-menu-block-9--2" class="block block-menu-block">
 
 
-          <div class="content">
+          <div class="content" id="content_hover">
             <div class="menu-block-wrapper menu-block-9 menu-name-main-menu parent-mlid-0 menu-level-1">
               <ul class="menu">
                 <li class="first leaf active-trail active menu-mlid-221"><a href="/"
@@ -3159,7 +3217,7 @@
     }
 
     function heartButton() {
-      buttonSendText("Heart clicked!")
+      buttonSendText("These are the FAQs about AICTE.")
     }
 
     // Press enter to send a message
@@ -3180,7 +3238,7 @@
       }
     }
   </script>
-
+  
 </body>
 
 </html>
